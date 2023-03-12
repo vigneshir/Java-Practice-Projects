@@ -1,3 +1,13 @@
+/*
+
+Write a program Minesweeper.java that takes three integer command-line arguments m, n, and k and prints an m-by-n grid of cells with k mines, using 
+asterisks for mines and integers for the neighboring mine counts (with two space characters between each cell). To do so,
+1. Generate an m-by-n grid of cells, with exactly k of the mn cells containing mines, uniformly at random.
+2. For each cell not containing a mine, count the number of neighboring mines (above, below, left, right, or diagonal).
+
+*/
+
+
 public class Minesweeper {
     public static void main(String[] args) {
         int m = Integer.parseInt(args[0]);
